@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Locații Nuntă & Botez — Brașov | 30–100 persoane</title>
+<style>
+  :root{ --gold:#b8860b; --gold-l:#e8c766; --ink:#2b2b2b; --green:#2e8b57; --paper:#faf7f0; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Segoe UI',Georgia,serif;background:linear-gradient(160deg,#1c2b23,#2e4536);padding:32px 16px;color:var(--ink)}
+  .page{max-width:900px;margin:0 auto;background:var(--paper);border-radius:18px;overflow:hidden;box-shadow:0 24px 70px rgba(0,0,0,.45)}
+  .hero{position:relative;height:290px}
+  .hero img{width:100%;height:100%;object-fit:cover;filter:brightness(.55)}
+  .hero .txt{position:absolute;bottom:0;left:0;right:0;padding:26px 34px;color:#fff}
+  .hero h1{font-size:30px;letter-spacing:.5px}
+  .hero h1 span{color:var(--gold-l)}
+  .hero p{margin-top:6px;font-size:14px;opacity:.9}
+  .badge{display:inline-block;background:var(--gold);color:#fff;font-size:12px;padding:4px 12px;border-radius:20px;letter-spacing:1px;text-transform:uppercase;margin-bottom:10px}
+  section{padding:28px 34px}
+  h2{font-size:20px;color:var(--gold);margin-bottom:14px;border-bottom:2px solid var(--gold-l);padding-bottom:6px}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+  .stat{background:#fff;border:1px solid #eee3c8;border-radius:12px;padding:14px;text-align:center}
+  .stat b{display:block;font-size:26px;color:var(--green)}
+  .stat span{font-size:12px;color:#777}
+  table{width:100%;border-collapse:collapse;font-size:13px;background:#fff}
+  th{background:var(--gold);color:#fff;text-align:left;padding:9px 8px}
+  td{padding:8px;border-bottom:1px solid #eee}
+  tr:nth-child(even) td{background:#f8f4ea}
+  .flex td{background:#eaf3ee!important}
+  .bars{margin-top:6px}
+  .bar-row{display:grid;grid-template-columns:150px 1fr 60px;align-items:center;gap:10px;margin:7px 0;font-size:13px}
+  .bar-track{background:#eee6d0;border-radius:6px;height:20px;position:relative}
+  .bar-fill{height:100%;border-radius:6px;background:linear-gradient(90deg,var(--green),#57b884)}
+  .bar-fill.premium{background:linear-gradient(90deg,var(--gold),var(--gold-l))}
+  .limit{position:absolute;top:-2px;bottom:-2px;width:2px;background:#c0392b}
+  ul{list-style:none;margin-top:6px}
+  li{padding:8px 0 8px 26px;position:relative;font-size:14px;border-bottom:1px dashed #e5dcc0}
+  li::before{content:"✦";position:absolute;left:4px;color:var(--gold)}
+  footer{background:var(--green);color:#dfeee5;text-align:center;padding:14px;font-size:12px}
+  @media(max-width:640px){.stats{grid-template-columns:1fr 1fr}.hero h1{font-size:22px}}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="hero">
+    <img src="https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/8d720717-3232-5fef-9f13-05fee4ea6d3f/873b0601-06c8-55a1-a120-b4d8665a4b8c.jpg" alt="Piața Sfatului, Brașov">
+    <div class="txt">
+      <div class="badge">Research · Septembrie 2026</div>
+      <h1>Locații pentru <span>Nuntă & Botez</span> — Brașov</h1>
+      <p>Filtre: capacitate 30–100 persoane · restaurante, săli și pensiuni cu evenimente</p>
+    </div>
+  </div>
+  <section>
+    <h2>Cifre-cheie</h2>
+    <div class="stats">
+      <div class="stat"><b>11</b><span>locații strict în intervalul 30–100 pers.</span></div>
+      <div class="stat"><b>7</b><span>locații flexibile (capacitate mai mare)</span></div>
+      <div class="stat"><b>120–500</b><span>lei/pers. interval preț meniu</span></div>
+      <div class="stat"><b>116</b><span>locații total identificate în județul Brașov</span></div>
+    </div>
+  </section>
+  <section>
+    <h2>Grafic — capacitate vs. intervalul țintă</h2>
+    <div class="bars" id="chart"></div>
+    <p style="font-size:12px;color:#888;margin-top:8px">■ verde = accesibil/mediu · ■ auriu = premium · linii roșii = limitele 30 / 100</p>
+  </section>
+  <section>
+    <h2>Tabel complet</h2>
+    <table>
+      <tr><th>Locație</th><th>Zonă</th><th>Capacitate</th><th>Preț meniu/pers.</th><th>Atuuri</th></tr>
+      <tr><td><b>Sergiana</b></td><td>Centru, M. Kogălniceanu 15</td><td>până la 100</td><td>180–300 lei</td><td>Tradițional românesc, terasă</td></tr>
+      <tr><td><b>Casa Bucur</b></td><td>Str. Poiana Ursului 49</td><td>50–100</td><td>la cerere</td><td>Evenimente private</td></tr>
+      <tr><td><b>Restaurant Intim</b></td><td>Str. Fuiorului 40</td><td>50–100</td><td>~120–250 lei</td><td>Meniuri tradiționale</td></tr>
+      <tr><td><b>Prestigio Events</b></td><td>Str. Lacurilor 35</td><td>50–100</td><td>la cerere</td><td>Ballroom + terasă</td></tr>
+      <tr><td><b>Belvedere</b></td><td>Str. Stejerișului 11</td><td>până la 80</td><td>250–400 lei</td><td>Panoramă, gourmet</td></tr>
+      <tr><td><b>Naturalia Inn</b></td><td>Piața Unirii 4</td><td>35–80</td><td>la cerere</td><td>Natură, aer liber</td></tr>
+      <tr><td><b>Garden Club</b></td><td>Bd. Griviței A48</td><td>până la 80</td><td>la cerere</td><td>Complex hotelier</td></tr>
+      <tr><td><b>Sub Tâmpa</b></td><td>Aleea de sub Tâmpa</td><td>până la 60</td><td>160–280 lei</td><td>Grădină intimă</td></tr>
+      <tr><td><b>Restaurant 7 Șoapte</b></td><td>lângă pădure</td><td>58 locuri</td><td>la cerere</td><td>Evenimente restrânse</td></tr>
+      <tr><td><b>Dei Frati</b></td><td>Centrul vechi</td><td>până la 50</td><td>200–350 lei</td><td>Italian, romantic</td></tr>
+      <tr><td><b>Bistro de l'Arte</b></td><td>Centrul vechi</td><td>până la 40</td><td>220–380 lei</td><td>Decor artistic</td></tr>
+      <tr class="flex"><td colspan="5"><b>Flexibile — capacitate >100, dar acceptă grupuri mici</b></td></tr>
+      <tr class="flex"><td>Wolkendorf Hotel</td><td>Str. Heleșteului</td><td>30–130</td><td>la cerere</td><td>Elegant, aer liber</td></tr>
+      <tr class="flex"><td>Casa Românească</td><td>Piața Unirii 15</td><td>până la 120</td><td>la cerere</td><td>Rustic românesc</td></tr>
+      <tr class="flex"><td>Kasho</td><td>Șirul Livezii 1</td><td>50–150</td><td>la cerere</td><td>Oază urbană verde</td></tr>
+      <tr class="flex"><td>Diamant (Ghimbav)</td><td>Str. Făgărașului 44</td><td>70–170</td><td>430–515 lei</td><td>Două săli</td></tr>
+      <tr class="flex"><td>3 Stejari — Secular</td><td>Col. Kiss Sándor 102</td><td>70–140</td><td>la cerere</td><td>Pădure seculară</td></tr>
+      <tr class="flex"><td>Rosenau Events</td><td>Brașov</td><td>50–250</td><td>de la ~100 lei</td><td>Meniuri variate</td></tr>
+    </table>
+  </section>
+  <section>
+    <h2>Concluzii pentru parteneriate</h2>
+    <ul>
+      <li>Accesibil de la ~120 lei/pers. (Intim, Sub Tâmpa), premium până la 400 lei (Belvedere, Bistro de l'Arte).</li>
+      <li>Puncte forte: panoramă (Belvedere), natură (Sub Tâmpa, 7 Șoapte, Naturalia), tradiție (Sergiana, Casa Românească).</li>
+      <li>Avantajul agenției: pachete integrate <b>transport + locație + meniu</b>.</li>
+      <li>Start cu locațiile de 50–100 pers. (Casa Bucur, Prestigio, Intim) — cel mai mare volum de cereri de botez.</li>
+      <li>Rezervări: 3–6 luni (botez), 12–18 luni (nuntă).</li>
+    </ul>
+  </section>
+  <footer>Prezentare one-page · Analiza locațiilor pentru evenimente — Brașov · surse publice (Weddingo, restaurante-brasov.com) · imagini ilustrative</footer>
+</div>
+<script>
+const data=[
+ ["Sergiana",100],["Casa Bucur",100],["Restaurant Intim",100],["Prestigio Events",100],
+ ["Belvedere",80],["Naturalia Inn",80],["Garden Club",80],["Sub Tâmpa",60],
+ ["7 Șoapte",58],["Dei Frati",50],["Bistro de l'Arte",40]
+];
+const chart=document.getElementById('chart');
+data.forEach(([n,c])=>{
+  const row=document.createElement('div');row.className='bar-row';
+  row.innerHTML='<span>'+n+'</span><div class="bar-track"><div class="bar-fill" style="width:'+(c/1.2)+'%"></div><div class="limit" style="left:'+(30/1.2)+'%"></div><div class="limit" style="left:'+(100/1.2)+'%"></div></div><span><b>'+c+'</b> pers.</span>';
+  chart.appendChild(row);
+});
+</script>
+</body>
+</html>
