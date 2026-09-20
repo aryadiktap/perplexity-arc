@@ -7,6 +7,7 @@ Arhiva publică a discuțiilor Perplexity — prezentări, analize și materiale
 | Data | Tema | Prezentare |
 |---|---|---|
 | 2026-09-20 | Locații Nuntă & Botez — Brașov (30–100 pers.) | [deschide](./2026-09-20-restaurante-brasov-evenimente/index.html) |
+| 2026-09-20 | Analiza pieței constructorilor de piscine — județul Brașov | [deschide](./2026-09-20-piata-piscine-brasov/index.html) |
 
 Fișierele sursă (PDF, PNG, CSV) sunt în subfolderul fiecărei discuții.
 
